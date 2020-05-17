@@ -81,9 +81,7 @@ Public Class Right
     End Property
 
     'Implement Static Methods
-    Private Shared Function _ListOfElements() As Right()
-        '-- A Faire avec la DB --
-    End Function
+
 
     'Implement Instance Methods
 
@@ -93,7 +91,8 @@ Public Class Right
 
     'Interface Methods
     Public Shared Function ListOfElements() As Right()
-        Return _ListOfElements()
+        '-- A faire avec la DB --
+        Return Nothing
     End Function
 
 
